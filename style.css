@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body{
+    font-family: "Tektur", sans-serif;
+}
+
+h1{
+    font-size: 64px;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+
+.one{
+    text-align: center;
+    top: 80px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000  ;
+}
+
+nav a{
+    font-size: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 7px;
+    background: #000000;
+    border-radius: 15px;
+    width: 100px;
+    margin: 7px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2 ease;
+
+}
+
+nav a:hover{
+    transform: scale(0.96);
+    box-shadow:  10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gold{
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    width: 100%;
+}
+
+.p1{
+    font-size: 24px;
+}
+
+.p2{
+    font-size: 24px;
+    text-align: center;
+}
+
+.p3{
+    font-size: 36px;
+    text-align: center;
+}
+
+.creat-g{
+
+    position: absolute;
+    width: 239px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000; 
+
+
+}
+
+.creat{
+    width: 252px;
+    height: 253px;
+    left: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+
+}
+
+.text{
+    position: absolute;
+    width: 236px;
+    height: 122px;
+    left: 315px;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.god{
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    width: 100%;
+}
+.prophecy{
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

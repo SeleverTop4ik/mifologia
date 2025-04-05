@@ -129,3 +129,8 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.lot{
+    font-size: 19px;
+    cursor: pointer;
+}
